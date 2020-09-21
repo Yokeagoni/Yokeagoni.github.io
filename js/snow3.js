@@ -65,7 +65,7 @@ flakeMove.prototype.update = function () {
     var x = this.x,
         y = this.y;
     /* 左右摆动(余弦) */
-    this.velX *= 1.0;
+    this.velX *= 0.99;
     if (this.velY <= this.speed) {
         this.velY = this.speed
     }
