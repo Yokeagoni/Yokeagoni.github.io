@@ -807,7 +807,7 @@ body {
 
 .left-col {
 	background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
-    url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1588096761872&di=78faeda41ce4531f2929e20ed90669c3&imgtype=0&src=http://b-ssl.duitang.com/uploads/item/201612/09/20161209000936_zaXwh.jpeg')no-repeat 0% 20%/ cover;
+    url('https://cdn.jsdelivr.net/gh/Yokeagoni/imges/imge/20200927000501.jpg')no-repeat 0% 20%/ cover;
 	width: 300px;
 	position: fixed;
 	opacity: 1;
