@@ -321,7 +321,7 @@ body {
 	color: #333;
 	min-height: 100%
 	background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
-    url('') no-repeat 0% 0%/ cover
+    url('https://cdn.jsdelivr.net/gh/Yokeagoni/imges/imge/20200927225757.jpg') no-repeat 0% 0%/ cover
 }
 }
 
@@ -807,7 +807,7 @@ body {
 
 .left-col {
 	background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
-    url('https://cdn.jsdelivr.net/gh/Yokeagoni/imges/imge/20200927000501.jpg')no-repeat 0% 20%/ cover;
+    url('https://cdn.jsdelivr.net/gh/Yokeagoni/imges/imge/20200927230819.jpg')no-repeat 0% 20%/ cover;
 	width: 300px;
 	position: fixed;
 	opacity: 1;
