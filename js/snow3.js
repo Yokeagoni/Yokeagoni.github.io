@@ -1,11 +1,13 @@
+<script type="text/javascript" src="http://libs.baidu.com/jquery/1.8.3/jquery.js"></script>
+<script type="text/javascript" src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
 /*样式二*/
 /* 控制下雪 */
 function snowFall(snow) {
     /* 可配置属性 */
     snow = snow || {};
-    this.maxFlake = snow.maxFlake || 200; /* 最多片数 */
-    this.flakeSize = snow.flakeSize || 10; /* 雪花形状 */
-    this.fallSpeed = snow.fallSpeed || 2; /* 坠落速度 */
+    this.maxFlake = snow.maxFlake || 250; /* 最多片数 */
+    this.flakeSize = snow.flakeSize || 15; /* 雪花形状 */
+    this.fallSpeed = snow.fallSpeed || 1; /* 坠落速度 */
 }
 /* 兼容写法 */
 requestAnimationFrame = window.requestAnimationFrame ||
@@ -65,7 +67,7 @@ flakeMove.prototype.update = function () {
     var x = this.x,
         y = this.y;
     /* 左右摆动(余弦) */
-    this.velX *= 0.99;
+    this.velX *= 0.98;
     if (this.velY <= this.speed) {
         this.velY = this.speed
     }
